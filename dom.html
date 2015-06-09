@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM 操作</title>
+	<link rel="stylesheet" href="css/dom.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+<body>
+<h1 id="title"><a href="#">臺大學術單位一覽</a></h1>
+<div class="buttons">
+	<input type="button" id="toggleClass" value="toggleClass">
+	<input type="button" id="changeClass" value="changeAttr (class)">
+	<input type="button" id="changeHref" value="changeAttr (href)">
+	<input type="button" id="changeText" value="changeText">
+	<input type="input" id="text" placeholder="農學院" value="">
+	<input type="button" id="addDOMTree" value="addDOMTree">
+	<input type="button" id="addEach" value="addEach">
+</div>
+<hr>
+<div id="content">
+<div class="college">
+	<h2>電機資訊學院</h2>
+	<ul>
+		<li>電機工程學系</li>
+		<li>資訊工程學系</li>
+		<li>光電工程學研究所</li>
+		<li>電信工程學研究所</li>
+		<li>電子工程學研究所</li>
+		<li>資訊網路與多媒體研究所</li>
+		<li>生醫電子與資訊學研究所</li>
+	</ul>
+</div>
+<div class="college">
+	<h2>理學院</h2>
+	<ul>
+		<li>數學系</li>
+		<li>物理學系</li>
+		<li>化學系</li>
+		<li>地質科學系</li>
+		<li>心理學系</li>
+		<li>地理環境資源學系</li>
+		<li>大氣科學系</li>
+		<li>海洋研究所</li>
+		<li>天文物理研究所</li>
+		<li>應用物理研究所</li>
+		<li>應用數學科學研究所</li>
+	</ul>
+</div>
+</div>
+<script src="js/dom.js"></script>	
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <title>觀光景點查詢</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/ajax.css">
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row">
+		<h1>觀光景點查詢</h1>
+		<form class="form-inline" id="form-container">
+		<div class="form-group">
+			<label for="attraction">景點名稱</label>
+			<input type="text" class="form-control" id="attraction" placeholder="墾丁">
+		</div>
+		<button type="submit" class="btn btn-default" id="submit-btn">查詢</button>
+		</form>
+	</div>
+	<hr>
+	<div class="row">
+		<div class="col-md-6">
+			<h2>Google 街景</h2>
+			<img src="http://placehold.it/500x350" class="img-responsive" alt="attraction-image" id="streetview">
+		</div>
+		<div class="col-md-6">
+			<h2>維基百科條目</h2>
+			<div id=wiki></div>
+		</div>
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/ajax.js"></script>	
+</body>
+</html>
